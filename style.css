@@ -1,10 +1,10 @@
 @font-face {
-  font-family: ;
-  src: url();
+  font-family: "Inter";
+  src: url(../assets/fonts/Inter-VariableFont_slntwght.ttf) format("truetype");
 }
 
 body {
-  background-color: black;
+  background-color: hsl(0, 0%, 8%);
   height: 100%;
 }
 
@@ -14,17 +14,61 @@ container {
   align-items: center;
   justify-content: center;
 }
-h1 {
-  color: white;
-}
 
 .information-block {
   width: 300px;
   height: 450px;
+  display: grid;
 
-  background: white;
+  background-color: hsl(0, 0%, 12%);
 
   border-radius: 5%;
+  margin: auto;
+  margin-top: 40%;
+  text-align: center;
+  justify-content: center;
+}
+.photo {
+  margin: auto;
+  margin-left: 35%;
+  margin-top: 10%;
+  margin-bottom: -25%;
+
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+}
+.text {
+  font-family: "Inter";
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+h2 {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: -3.5%;
+}
+h3 {
+  color: white;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-top: 10%;
+}
+ul {
+  display: block;
+  color: white;
+  font-weight: 600;
+  list-style-type: none;
+}
+
+li {
+  border: 3px solid hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 20%);
   margin: auto;
 }
 
