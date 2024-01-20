@@ -1,0 +1,40 @@
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+body {
+  background-color: black;
+  height: 100%;
+}
+
+container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: white;
+}
+
+.information-block {
+  width: 300px;
+  height: 450px;
+
+  background: white;
+
+  border-radius: 5%;
+  margin: auto;
+}
+
+.attribution {
+  color: aliceblue;
+  font-size: 11px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
