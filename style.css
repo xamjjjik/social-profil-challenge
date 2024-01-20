@@ -62,11 +62,10 @@ h3 {
 }
 ul {
   display: grid;
-  /* text-align: center;
-  justify-content: center; */
   color: white;
   font-weight: 600;
   list-style-type: none;
+  text-align: center;
 }
 
 li {
@@ -76,10 +75,9 @@ li {
   width: 235px;
   height: 30px;
 
-  /* margin: auto; */
   margin-bottom: 5%;
   margin-left: -5%;
-  /* padding-top: 2px; */
+  line-height: 2rem;
 
   font-size: 0.7rem;
 }
